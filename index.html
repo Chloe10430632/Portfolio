@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - PORTFOLIO 練習</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar fixed-top navbar-expand-md big-nav">
+  <div class="container">
+    <div class="collapse navbar-collapse"> 
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#about" id="ab">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio" id="pf">PORTFOLIO</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact" id="ct">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="sm-nav-outer">★</div>
+<div id="sm-nav"><a class="nav-link" href="#about" id="abnav">About</a><a class="nav-link" href="#portfolio" id="pfnav">Portfolio</a><a class="nav-link" href="#contact" id="ctnav">Contact</a></div>
+<header id="header">
+  <div class="home"><a class="bgcircle" href="#header"></a>
+    <div class="sgcircle"></div>
+    <div class="sgcircle"></div>
+  </div>
+  <div class="container ct-header">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 left"> 
+        <div class="wordwrap">
+          <h1 class="w">WEBSITE</h1>
+          <h1 class="f">FRONTEND</h1>
+        </div>
+        <div class="title">
+          <h2>Hello! I'm Chloe</h2>
+          <h6>Frontend Developer</h6>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-12 right"> 
+        <div class="picwrap"> 
+          <div class="pic"></div>
+          <div class="gcircle g1"></div>
+          <div class="gcircle g2"></div>
+        </div>
+        <div class="info">
+          <p class="content">+886 0966470912</p>
+          <p>台灣 台北市 中山區</p>
+          <p>1999.11.28 ( 24歲 )</p>
+          <p>a21307096@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="me">About Me</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-7 ab-img"> <img class="img-fluid"/></div>
+      <div class="col-lg-5 ab-text">
+        <div class="title1">education</div>
+        <div class="title2">國立台灣藝術大學 戲劇學系</div>
+        <div class="time">2018-2022</div>
+        <p>大學時曾修過運用 Processing 來創作視覺/多媒體藝術的程式設計課程，並從中發現自己對於學習程式語言的結構深感興趣。目前正決心自學網頁設計，希望投入網頁前端工程領域，將有趣的想法實踐於新型態的網頁之上。</p>
+        <div class="title1 t3">experience</div>
+        <div class="title2">敦煌樂器 電商營運/行銷企劃</div>
+        <div class="time">2023.3- ( 在職中 ) 1 year</div>
+        <p class="content">• 商品文案撰寫、優化<br>• 行銷廣宣素材製作<br>• 社群經營維運、活動新聞稿撰寫</p>
+        <div class="title2">不來梅 網站業務企劃 AE</div>
+        <div class="time">2022.9-2022.12   4 month</div>
+        <p class="content">• 品牌官網維運 、 內容上稿<br>• 網站建置專案時程規劃與管理<br>• 瞭解客戶需求及溝通</p>
+        <div class="title1 t2">skills&expertise</div>
+        <p class="skill s1 content">Adobe Photoshop</p>
+        <p class="skill s2 content">Adobe Illustrator</p>
+        <p class="skill s3 content">HTML/CSS/JS</p>
+        <p class="skill s4 content">Vue.js</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="portfolio">
+  <div class="container"> 
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="port">Portfolio</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="pic1"></div>
+        <p>靜態前端作品-個人簡歷</p>
+      </div>
+      <div class="col-lg-6">
+        <div class="pic2"></div>
+        <p>靜態前端作品-Ubereats EDM 仿刻</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="pic3"></div>
+        <p>動態前端作品-購物網站</p>
+      </div>
+      <div class="col-lg-6">
+        <div class="pic4"></div>
+        <p>動態前端作品-加倍佳品牌官網</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact">
+  <div class="container"> 
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="contact">Contact Me</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 form-wrap">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6">
+            <p>Name </p>
+            <input placeholder="請輸入姓名"/>
+          </div>
+          <div class="col-lg-6 col-sm-6">
+            <p>Phone</p>
+            <input placeholder="請輸入手機"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Email</p>
+            <input class="input-em" placeholder="請輸入Email"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Message</p>
+            <input class="input-ms" placeholder="請輸入訊息"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <button class="send-ms">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer id="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <p>📧 a21307096@gmail.com / Copyright 2024 Chloe Shi All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="greyscreen"></div>
+<div class="pt-pop pt1">
+  <div class="close">X</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 ptwrap"><img class="pt1_pic" src="https://i.imgur.com/NM5C20h.jpeg" alt=""/></div>
+      <div class="col-lg-6 ptwrap">
+        <h6>HTML/CSS 靜態切版CV</h6>
+        <p>• Html（Pug）製作出履歷架構<br>• Css（Sass）進行切版與靜態手刻UI元件<br>• 乾淨整潔的視覺版面設計</p><a class="check" href="https://codepen.io/kispgskg-the-vuer/pen/WNWEYKK">查看更多</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pt-pop pt2">
+  <div class="close">X</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 ptwrap"><img class="pt1_pic" src="https://i.imgur.com/C0IyHLb.jpeg" alt=""/></div>
+      <div class="col-lg-6 ptwrap">
+        <h6>HTML/CSS<br>靜態切版 優食電子報</h6>
+        <p>• 使用Html（Pug）製作出經典Ubereats EDM<br>• Css（Sass）進行切版與靜態手刻UI元件<br>• 依照設計圖完美復刻圖像</p><a class="check" href="https://codepen.io/kispgskg-the-vuer/pen/gOyGmyq">查看更多</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pt-pop pt3">
+  <div class="close">X</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 ptwrap"><img class="pt1_pic" src="https://i.imgur.com/f25s82T.jpeg" alt=""/></div>
+      <div class="col-lg-6 ptwrap">
+        <h6>HTML/CSS/JS <br>動態作品 購物功能網站</h6>
+        <p>• 使用Html（Pug）製作網頁主要模板結構<br>• Css（Sass）進行切版、規劃動態UI元件<br>• 發想設計網站UI/UX結構<br>• 使用Jquery語法動態更新購物車清單、加總商品數量與金額</p><a class="check" href="https://codepen.io/kispgskg-the-vuer/pen/wvbepWo">查看更多</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pt-pop pt4">
+  <div class="close">X</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 ptwrap"><img class="pt1_pic" src="https://i.imgur.com/84TbxXl.jpeg" alt=""/></div>
+      <div class="col-lg-6 ptwrap">
+        <h6>HTML/CSS/JS <br>動態作品 加倍佳一頁式網站</h6>
+        <p>• 使用Html（Pug）製作網頁主要結構<br>• Css（Sass）進行切版、規劃動態UI元件<br>• 發想設計網站UI/UX結構、製作Wireframe<br>• 使用Chat GPT編寫較複雜的Javascript語法，提升Coding效率</p><a class="check" href="https://codepen.io/kispgskg-the-vuer/pen/WNqrJJa">查看更多</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
