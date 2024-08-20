@@ -2,7 +2,7 @@
 $("#sm-nav").click(
   function(){
     $(this).css("display","none")
-    $("#sm-nav-outer").html("★")
+    $("#sm-nav-outer").html("<div class='l1'></div><div class='l2'></div>")
   }
 );
 // 手機板導覽列的菜單開合按鈕
@@ -11,10 +11,10 @@ const navMenu = document.getElementById('sm-nav');
 menuButton.addEventListener('click', () => {
     if (navMenu.style.display === 'none') {
         navMenu.style.display = 'block';
-        menuButton.innerHTML = 'X'; // X 圖標 &times;
+        menuButton.innerHTML = '<div class="l1"></div><div class="l2"></div>'; // X 圖標 &times;
     } else {
         navMenu.style.display = 'none';
-        menuButton.innerHTML = '★'; // 菜單圖標 &#9776;
+        menuButton.innerHTML = '<div class="l1"></div><div class="l2"></div>'; // 菜單圖標 &#9776;
     }
 });
 

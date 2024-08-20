@@ -47,32 +47,38 @@ nav.navbar.fixed-top.navbar-expand-md {
   position: fixed;
   top: 30px;
   right: 30px;
-  width: 150px;
-  height: 150px;
-  background-color: #76DD59;
-  border-radius: 50%;
-  font-size: 100px;
-  text-align: center;
-  color: #FFFCFF;
   cursor: pointer;
   z-index: 7;
+  margin-top: 15px;
+}
+#sm-nav-outer .l1 {
+  width: 10vw;
+  height: 15px;
+  position: relative;
+  left: 5vw;
+  background-color: #76DD59;
+  margin-bottom: 30px;
+}
+#sm-nav-outer .l2 {
+  width: 15vw;
+  height: 15px;
+  background-color: #76DD59;
 }
 
 #sm-nav {
   display: none;
   position: fixed;
   right: 0px;
-  margin-top: 160px;
-  padding: 40px;
+  margin-top: 100px;
+  padding: 20px;
   z-index: 7;
-  background-color: #fff;
   text-align: right;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 #sm-nav .nav-link {
   position: relative;
   left: 10px;
-  font-size: 50px;
+  font-size: 30px;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 992px) {
